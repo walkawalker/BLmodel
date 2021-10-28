@@ -1,0 +1,35 @@
+The output of the BL Model is as follows
+Market Weights:
+ US MKT RATE  Foreign MKT RATE  Emerging MKT RATE
+         0.5               0.4                0.1
+Prior Returns:
+[[0.00529611]
+ [0.00604146]
+ [0.00723321]]
+The risk aversion parameter
+3
+Tau Prior
+0.1
+Tau Omega
+0.01
+Managers Views:
+ US Equity  Foreign Equity  Emerging Equity
+         1               0                0
+         0               1               -1
+Managers Views Q Values:
+    Q
+0.015
+0.030
+Posterior Distribution
+ Excess Ret Us Equity  Excess Ret Foreign Equity  Excess Ret Emerging Equity
+             0.001862                   0.001613                    0.002049
+             0.001613                   0.002548                    0.002502
+             0.002049                   0.002502                    0.004511
+Optimal Weights
+[[ 0.87987216  1.46955507 -1.34942724]]
+Optimal Expected Return
+[[0.05151455]]
+Optimal SD
+0.06736549543697247
+Optimal Sharpe Ratio
+[[0.76470235]]
